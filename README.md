@@ -1,65 +1,65 @@
-# Głębokie i Grafowe Sieci Neuronowe — Laboratoria
+# Deep and Graph Neural Networks — Lab Assignments
 
-Repozytorium zawiera rozwiązania laboratoryjnych zadań z przedmiotu **Głębokie i Grafowe Sieci Neuronowe**.
-
----
-
-## Zadania
-
-### Zadanie 1 — Optymalizacja modeli na danych tabelarycznych
-
-**Termin:** 30 marca 2026, godz. 23:59
-
-Zadanie polega na wyborze odpowiedniej metody dla problemu związanego z danymi tabelarycznymi (klasyfikacja, regresja, rekomendacja). Należy zaimplementować model (np. regresję liniową, drzewa decyzyjne, lasy losowe, XGBoost oraz różne sieci neuronowe) i przeprowadzić proces optymalizacji, pokazując cały proces dochodzenia do najlepszego rozwiązania — sterowany poprzednimi wynikami, porównaniami i wnioskami.
-
-Kluczowe elementy:
-- eksperymentowanie z hiperparametrami modeli,
-- regularyzacja,
-- walidacja krzyżowa,
-- analiza wyników.
+Repository containing solutions to lab assignments for the **Deep and Graph Neural Networks** course.
 
 ---
 
-### Zadanie 2 — Optymalizacja modeli na danych obrazowych
+## Assignments
 
-**Termin:** 20 kwietnia 2026, godz. 23:59
+### Assignment 1 — Optimization of Models on Tabular Data
 
-Zadanie polega na wyborze danych obrazowych wymagających rozwiązania problemu klasyfikacji, detekcji obiektów lub segmentacji. Należy zaimplementować modele oparte na sieciach CNN, eksperymentując z różnymi architekturami, technikami optymalizacji, augmentacji danych i transfer learningu.
+**Deadline:** March 30, 2026, 11:59 PM
 
-Kluczowe elementy:
-- wykorzystanie wytrenowanych modeli i fine-tuning,
-- wizualizacja wyników,
-- ocena skuteczności metod optymalizacji i regularyzacji.
+Select an appropriate method for a tabular data problem (classification, regression, or recommendation). Implement a model (e.g. linear regression, decision trees, random forests, XGBoost, or various neural networks) and carry out an optimization process, documenting the full path to the best solution — driven by previous results, comparisons, and conclusions.
 
----
-
-### Zadanie 3 — Optymalizacja modeli na danych sekwencyjnych
-
-**Termin:** 11 maja 2026, godz. 23:59
-
-Zadanie polega na wyborze danych sekwencyjnych (teksty, sygnały EEG/ECG, dane czasowe np. prognoza cen akcji) i implementacji różnych modeli sekwencyjnych: RNN, LSTM, GRU oraz architektur opartych na transformatorach (np. BERT).
-
-Kluczowe elementy:
-- optymalizacja hiperparametrów,
-- dobór funkcji aktywacji,
-- eksperymentowanie z technikami kodowania (one-hot encoding, word embeddings).
+Key elements:
+- hyperparameter experimentation,
+- regularization,
+- cross-validation,
+- results analysis.
 
 ---
 
-### Zadanie 4 — Optymalizacja modeli na danych grafowych
+### Assignment 2 — Optimization of Models on Image Data
 
-**Termin:** 8 czerwca 2026, godz. 23:59
+**Deadline:** April 20, 2026, 11:59 PM
 
-Zadanie polega na wyborze danych grafowych i zastosowaniu modeli opartych na grafowych sieciach neuronowych (GNN) do rozwiązywania problemów takich jak klasyfikacja wierzchołków, klasyfikacja grafów, regresja czy detekcja anomalii.
+Select image data requiring a classification, object detection, or segmentation solution. Implement CNN-based models, experimenting with different architectures, optimization techniques, data augmentation, and transfer learning.
 
-Kluczowe elementy:
-- eksperymentowanie z wariantami GNN,
-- regularyzacja i optymalizacja modeli,
-- analiza jakości wyników na danych testowych.
+Key elements:
+- fine-tuning of pretrained models,
+- visualization-based analysis,
+- evaluation of optimization and regularization methods.
 
 ---
 
-## Technologie
+### Assignment 3 — Optimization of Models on Sequential Data
+
+**Deadline:** May 11, 2026, 11:59 PM
+
+Select sequential data (text, EEG/ECG signals, time series such as stock price forecasting) and implement various sequential models: RNN, LSTM, GRU, and transformer-based architectures (e.g. BERT).
+
+Key elements:
+- hyperparameter tuning,
+- activation function selection,
+- experimentation with encoding techniques (one-hot encoding, word embeddings).
+
+---
+
+### Assignment 4 — Optimization of Models on Graph Data
+
+**Deadline:** June 8, 2026, 11:59 PM
+
+Select graph data and apply Graph Neural Network (GNN) models to solve problems such as node classification, graph classification, regression, or anomaly detection.
+
+Key elements:
+- experimentation with GNN variants,
+- model regularization and optimization,
+- analysis of model quality on test data.
+
+---
+
+## Technologies
 
 - Python 3.x
 - PyTorch / TensorFlow / Keras
